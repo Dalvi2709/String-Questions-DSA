@@ -3,8 +3,6 @@ public class Palindrome {
         
         String str = "madam";  // You can change this string to test other words
         boolean isPalindrome = true;
-           
-        System.out.println(str.length());
 
         // Loop through the string from both ends
         for (int i = 0; i < str.length() / 2; i++) {

@@ -27,22 +27,3 @@ public class charcterfrequency {
         System.out.println(map);
     }
 }
-
-
-
-
-
-// import java.util.HashMap;
-// import java.util.Map;
-// public class charcterfrequency{
-//     public static void main(String [] args){
-// String input = "hello";
-// Map<Character, Integer> charCountMap = new HashMap<>();
-
-// for (char c : input.toCharArray()) {
-//     charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
-// }
-
-// System.out.println("Character occurrences: " + charCountMap);
-// }
-// }

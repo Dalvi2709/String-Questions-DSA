@@ -20,6 +20,7 @@ public class compareTo_subString_hackerrank {
        String res1 = A.substring(0,1).toUpperCase() + A.substring(1).toLowerCase();
        String res2 = B.substring(0,1).toUpperCase() + B.substring(1).toLowerCase();
        System.out.println(res1 + " "+ res2);
+       sc.close();
     }
 }
 
